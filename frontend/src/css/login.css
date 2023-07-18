@@ -1,0 +1,38 @@
+.form-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+
+  }
+  .h23{
+    color: darkolivegreen;
+  }
+  .form-2 label {
+    margin-bottom: 5px;
+  }
+  
+  .form-2 input {
+    padding: 8px;
+    border: 1px solid slategrey;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+  }
+  
+  .form-2 input[type="submit"] {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+   
+  }
+  
+  .form-2 input[type="submit"]:hover {
+    background-color: lightgreen;
+  }
+  
+  .form-2 input[type="submit"]:focus {
+    outline: none;
+  }
